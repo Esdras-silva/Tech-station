@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Site01</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/******    Responsividade   ******/
+
+@media (min-width:0px) {
+    .navbar{
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .logo{
+        margin: auto;
+        width: 100%;
+    }
+    
+    .menu{
+        overflow: hidden;
+        margin: auto;
+        text-align: center;
+       
+        padding: 20px;
+    }
+    
+    .menu li{
+        list-style: none;
+        display: inline-block;
+        margin: 4px;
+        padding: 10px 5px;
+        border-radius: 20px;
+    }
+    
+    .menu li:active{
+        list-style: none;
+        display: inline-block;
+        margin: 4px;
+        padding: 10px 5px;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: white;
+        color: gray;
+    }
+    
+    
+    .menu a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Arial';
+        font: 15px;
+    }
+    
+    .container{
+        width: 90%;
+        margin-top: px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .content{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .content img{
+       width: 150px;
+       margin: auto;
+    }
+    
+    
+    
+    .img-st01{
+        border-radius: 10px 25px;
+    }
+    
+    .footer h4{
+        margin: 10px;
+    }
+}
+
+@media (min-width:200px) {
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+}
+.logo{
+    margin: auto;
+    width: 100%;
+}
+
+.menu{
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+   
+    padding: 20px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    padding: 10px 5px;
+    border-radius: 20px;
+}
+
+.menu li:active{
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    padding: 10px 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    color: gray;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Arial';
+    font: 15px;
+}
+
+.container{
+    width: 90%;
+    margin-top: px;
+    margin: auto;
+    padding: 10px;
+}
+
+.content{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+    
+}
+
+.content img{
+   width: 300px;
+   margin: auto;
+}
+
+
+.grid a{
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    color: black;
+   padding: 10px;
+    margin: 10px;
+    clear: both;
+    background-color: rgb(172, 170, 170);
+    border-radius: 20px;
+}
+
+.grid li{
+    font-size: 20px;
+}
+
+.grid img{
+    width: 200px;
+}
+.img-st01{
+    border-radius: 10px 25px;
+}
+
+.footer h4{
+    margin: 10px;
+    
+}
+
+
+}
+
+@media (min-width:1000px) {
+    .navbar{
+       
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .logo{
+       float: left;
+       padding: 20px;
+       width: 200px;
+    }
+    
+    .menu{
+        margin: 20px 0;
+        float: right;
+        text-align: center;
+        margin-right: 60px;
+    }
+    
+    .menu li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 20px;
+        padding: 10px 5px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    
+    .menu li:active{
+        list-style: none;
+        display: inline-block;
+        margin: 4px;
+        padding: 10px 5px;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: white;
+        color: gray;
+    }
+    
+    
+    .menu a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Arial';
+        font: 15px;
+    }
+    
+    .container{
+        width: 90%;
+        margin-top: px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .content{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        
+        
+    }
+    
+    .content img{
+       width: 300px;
+       margin: auto;
+    }
+    
+    .img-st01{
+        border-radius: 10px 25px;
+    }
+
+    .grid{
+        width: 100%;
+     
+    }
+    
+    .grid a{
+        color: black;
+        border: 1px solid;
+        clear: both;
+        background-color: rgb(172, 170, 170);
+        display: inline-block;
+        width: 300px;
+        height: 350px;
+        overflow: hidden;
+    }
+    
+    .grid li{
+        margin:15px ;
+        font-size: 20px;
+    }
+    
+    .grid img{
+        width: 200px;
+    }
+
+    .footer h4{
+        margin: 10px;
+    }
+}
+
+/**** Backgrounds ****/
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+/****   Colors   ****/
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.gray{
+    color: gray;
+}
+
+/****   Fonts   ****/
+
+.roboto{
+    font-family: 'Roboto';
+}
+
+.arial{
+    font-family: 'Arial';
+}
+
+/* Formatações */
+
+.al-center{
+    text-align: center;
+}
+
+.float-lft{
+    float: left;
+}
+
+.float-rgt{
+    float: right;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.clear-lft{
+    clear: left;
+}
+
+.clear-rgt{
+    clear: right;
+}
+
+.list-none{
+    list-style: none;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-inline-bl{
+    display: inline-block;
+}
+    </style>
+</head>
+
+<body>
+
+    <header style="margin-top: 20px;">
+        <nav class="navbar bg-gray">
+            <div class="logo">
+              <a href="index.html"><h1 class="roboto"><span class="white">Tech</span> Station</h1></a>  
+            </div>
+            <div class="menu">
+              
+                    <li><a href="services.html">Serviços</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">Contato</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <main style="margin-top: 20px;" class="container">
+        <div class="content al-center">
+            <h2 class="al-center">Venha conhecer a nossa loja!</h2>
+            <br>
+            <figure>
+            <img class="img-st01 " src="electronics-2929043_1280.webp" alt=""  ></figure>
+            <br>
+            <p class="float-lft arial">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis eaque totam repudiandae incidunt nisi quasi nihil reprehenderit illo tempora error corrupti, earffgth voluptatibus, nostrum repellat sed vel. Unde, ex nulla Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut cumque omnis ex doloribus, voluptatem consectetur, possimus eius, optio praesentium officiis veritatis excepturi deleniti! Expedita iusto, maxime sapiente molestias reprehenderit sunt.</p>
+        </div>
+    </main>
+
+    <footer class=" footer al-center roboto">
+        <h4>Desenvolvido por Antonio Esdras &copy</h4>
+    </footer>
+</body>
+
+</html>
